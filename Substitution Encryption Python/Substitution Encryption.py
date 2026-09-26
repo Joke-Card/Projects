@@ -4,7 +4,7 @@ import random
 import json
 import os
 
-characters= " " + string.punctuation + string.digits + string.ascii_letters
+characters= " " + "¬" + string.punctuation + string.digits + string.ascii_letters
 characters = list(characters)
 
 KEY_FILE = "key.json"
